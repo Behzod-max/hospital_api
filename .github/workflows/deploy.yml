@@ -22,3 +22,9 @@ jobs:
             git pull origin main
             chmod +x deploy.sh
             ./deploy.sh
+
+script: |
+  cd /var/www/hospital_api
+  chmod +x deploy.sh
+  ./deploy.sh
+
